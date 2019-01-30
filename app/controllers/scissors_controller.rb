@@ -6,12 +6,12 @@ class ScissorsController < ApplicationController
   
   if 
     @their_move == "scissors"
-      @outcome = "We Tied"
+      @outcome = "We tied!"
     elsif
       @their_move == "rock"
-      @outcome = "We Lost"
+      @outcome = "We lost!"
     else
-      @outcome = "We Won"
+      @outcome = "We won!"
   end
       
   

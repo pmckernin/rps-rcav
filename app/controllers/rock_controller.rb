@@ -2,16 +2,16 @@ class RockController < ApplicationController
   def we_played_rock
   
   
-  @their_move = ["rock", "paper", "scissor"].sample
+  @their_move = ["rock", "paper", "scissors"].sample
   
   if 
     @their_move == "rock"
-      @outcome = "We Tied"
+      @outcome = "We tied!"
     elsif
       @their_move == "paper"
-      @outcome = "We Lost"
+      @outcome = "We lost!"
     else
-      @outcome = "We Won"
+      @outcome = "We won!"
   end
       
   

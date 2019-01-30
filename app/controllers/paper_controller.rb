@@ -6,12 +6,12 @@ def we_played_paper
   
   if 
     @their_move == "paper"
-      @outcome = "We Tied"
+      @outcome = "We tied!"
     elsif
       @their_move == "scissors"
-      @outcome = "We Lost"
+      @outcome = "We lost!"
     else
-      @outcome = "We Won"
+      @outcome = "We won!"
   end
       
   
